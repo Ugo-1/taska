@@ -1,4 +1,4 @@
-package com.example.taska
+package com.indie.taska
 
 import io.flutter.embedding.android.FlutterActivity
 

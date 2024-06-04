@@ -25,7 +25,7 @@ class HomeViewModel extends ReactiveViewModel {
   bool showCalendar = true;
   DateTime selectedDay = DateTime.now();
   DateTime focusedDay = DateTime.now();
-  CalendarFormat calendarFormat = CalendarFormat.week;
+  CalendarFormat calendarFormat = CalendarFormat.month;
   TaskType taskType = TaskType.upcoming;
   Timer? _timer;
 
